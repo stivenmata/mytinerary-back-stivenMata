@@ -14,7 +14,7 @@ const cities = [
     area: 783.8,
     timezone: "UTC-5",
     description: "The city that never sleeps, known for its skyline, Broadway, and Times Square.",
-    image: "https://example.com/images/newYork.jpg",
+    image: "/images/cities/newYork.jpg",
   },
   {
     name: "Paris",
@@ -26,7 +26,7 @@ const cities = [
     area: 105.4,
     timezone: "UTC+1",
     description: "The city of love, famous for the Eiffel Tower, Louvre Museum, and exquisite cuisine.",
-    image: "https://example.com/images/paris.jpg",
+    image: "/images/cities/paris.jpg",
   },
   {
     name: "Tokyo",
@@ -38,7 +38,7 @@ const cities = [
     area: 2194,
     timezone: "UTC+9",
     description: "A blend of modern technology and tradition, home to Shibuya, Akihabara, and Mount Fuji.",
-    image: "https://example.com/images/tokyo.jpg",
+    image: "/images/cities/tokyo.jpg",
   },
   {
     name: "London",
@@ -50,7 +50,7 @@ const cities = [
     area: 1572,
     timezone: "UTC+0",
     description: "A historic city known for Big Ben, Buckingham Palace, and the Thames River.",
-    image: "https://example.com/images/london.jpg",
+    image: "/images/cities/london.jpg",
   },
   {
     name: "Rome",
@@ -62,7 +62,7 @@ const cities = [
     area: 1285,
     timezone: "UTC+1",
     description: "The Eternal City, home to the Colosseum, Vatican City, and delicious pasta.",
-    image: "https://example.com/images/rome.jpg",
+    image: "/images/cities/rome.jpg",
   },
   {
     name: "Barcelona",
@@ -74,7 +74,7 @@ const cities = [
     area: 101.9,
     timezone: "UTC+1",
     description: "A vibrant city famous for Gaudí's architecture, La Rambla, and its beaches.",
-    image: "https://example.com/images/barcelona.jpg",
+    image: "/images/cities/barcelona.jpg",
   },
   {
     name: "Sydney",
@@ -86,7 +86,7 @@ const cities = [
     area: 12368,
     timezone: "UTC+10",
     description: "Known for the Sydney Opera House, Harbour Bridge, and beautiful beaches.",
-    image: "https://example.com/images/sydney.jpg",
+    image: "/images/cities/sydney.jpg",
   },
   {
     name: "Dubai",
@@ -98,7 +98,7 @@ const cities = [
     area: 4114,
     timezone: "UTC+4",
     description: "A luxurious city with futuristic skyscrapers, desert safaris, and the Burj Khalifa.",
-    image: "https://example.com/images/dubai.jpg",
+    image: "/images/cities/dubai.jpg",
   },
   {
     name: "Berlin",
@@ -110,7 +110,7 @@ const cities = [
     area: 891.8,
     timezone: "UTC+1",
     description: "A city with rich history, known for the Berlin Wall, Brandenburg Gate, and museums.",
-    image: "https://example.com/images/berlin.jpg",
+    image: "/images/cities/berlin.jpg",
   },
   {
     name: "Amsterdam",
@@ -122,7 +122,7 @@ const cities = [
     area: 219.3,
     timezone: "UTC+1",
     description: "Famous for its canals, cycling culture, and the Van Gogh Museum.",
-    image: "https://example.com/images/amsterdam.jpg",
+    image: "/images/cities/amsterdam.jpg",
   },
   {
     name: "Buenos Aires",
@@ -134,7 +134,7 @@ const cities = [
     area: 203,
     timezone: "UTC-3",
     description: "The birthplace of tango, with vibrant nightlife, rich history, and delicious steaks.",
-    image: "https://example.com/images/buenosAires.jpg",
+    image: "/images/cities/buenosAires.jpg",
   },
   {
     name: "Los Angeles",
@@ -146,7 +146,7 @@ const cities = [
     area: 1302,
     timezone: "UTC-8",
     description: "The entertainment capital of the world, home to Hollywood and stunning beaches.",
-    image: "https://example.com/images/losAngeles.jpg",
+    image: "/images/cities/losAngeles.jpg",
   },
 ];
 
