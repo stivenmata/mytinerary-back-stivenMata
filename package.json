@@ -1,0 +1,27 @@
+{
+  "name": "mytinerary-back-stivenmata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stivenmata/mytinerary-back-stivenMata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stivenmata/mytinerary-back-stivenMata/issues"
+  },
+  "homepage": "https://github.com/stivenmata/mytinerary-back-stivenMata#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2",
+    "morgan": "^1.10.0"
+  }
+}
