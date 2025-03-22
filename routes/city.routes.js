@@ -4,9 +4,9 @@ import readController from "../controllers/cities/read.js";
 
 const router = express.Router();
 
-router.post("/", createController.create); // Crear una ciudad
-router.post("/bulk", createController.createMany); // Cargar varias ciudades
-router.get("/", readController.getAll); // Obtener todas las ciudades
-router.get("/:id", readController.getById); // Obtener una ciudad por ID
+router.post("/", createController.create); 
+router.post("/bulk", createController.createMany); 
+router.get("/", readController.getAll); 
+router.get("/:id", readController.getById); 
 
 export default router;
