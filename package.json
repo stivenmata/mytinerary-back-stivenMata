@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-  "dev": "nodemon server.js"
+  "dev": "nodemon server.js",
+  "dataCities": "node models/data/city.data.js"
   },
   "repository": {
     "type": "git",

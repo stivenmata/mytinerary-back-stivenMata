@@ -19,7 +19,7 @@ server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
 server.use(cors());
 server.use(morgan("dev"));
-server.use("/api/cities", router);
+server.use("/api", router);
 server.use(not_found_handler);
 server.use(error_400);
 server.use(error_handler);
