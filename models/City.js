@@ -7,6 +7,10 @@ const citySchema = new mongoose.Schema({
   continent: { type: String },
   description: { type: String },
   currency: { type: String },
+  phone: { type: String }, // Código de teléfono del país
+  population: { type: Number }, // Número de habitantes
+  area: { type: Number }, // Área en km²
+  timezone: { type: String }, // Zona horaria
 });
 
 const City = mongoose.model("City", citySchema);
