@@ -1,5 +1,6 @@
 import express from "express";
 import "dotenv/config.js";
+import "./config/database.js";
 import cors from "cors";
 import morgan from "morgan";
 import router from "./routes/index.js"; 
@@ -18,8 +19,7 @@ server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
 server.use(cors());
 server.use(morgan("dev"));
-
-server.use("/api", router);  
+server.use("/api/cities", router);
 server.use(not_found_handler);
 server.use(error_400);
 server.use(error_handler);
