@@ -5,6 +5,7 @@ import "../../config/database.js";
 
 const cities = [
   {
+    
     name: "New York",
     country: "USA",
     continent: "North America",
@@ -17,6 +18,7 @@ const cities = [
     image: "/images/cities/new-york.jpg",
   },
   {
+    
     name: "Paris",
     country: "France",
     continent: "Europe",
@@ -29,6 +31,7 @@ const cities = [
     image: "/images/cities/Paris.jpg",
   },
   {
+    
     name: "Tokyo",
     country: "Japan",
     continent: "Asia",
@@ -41,6 +44,7 @@ const cities = [
     image: "/images/cities/Tokyo.jpg",
   },
   {
+    
     name: "London",
     country: "United Kingdom",
     continent: "Europe",
@@ -53,6 +57,7 @@ const cities = [
     image: "/images/cities/London.jpg",
   },
   {
+    
     name: "Rome",
     country: "Italy",
     continent: "Europe",
@@ -65,6 +70,7 @@ const cities = [
     image: "/images/cities/Rome.jpg",
   },
   {
+    
     name: "Barcelona",
     country: "Spain",
     continent: "Europe",
@@ -77,6 +83,7 @@ const cities = [
     image: "/images/cities/barcelona.jpg",
   },
   {
+    
     name: "Sydney",
     country: "Australia",
     continent: "Australia",
@@ -89,6 +96,7 @@ const cities = [
     image: "/images/cities/sydney.jpg",
   },
   {
+    
     name: "Dubai",
     country: "United Arab Emirates",
     continent: "Asia",
@@ -101,6 +109,7 @@ const cities = [
     image: "/images/cities/Dubai.webp",
   },
   {
+    
     name: "Berlin",
     country: "Germany",
     continent: "Europe",
@@ -113,6 +122,7 @@ const cities = [
     image: "/images/cities/Berlin.avif",
   },
   {
+    
     name: "Amsterdam",
     country: "Netherlands",
     continent: "Europe",
@@ -125,6 +135,7 @@ const cities = [
     image: "/images/cities/Amsterdam.jpeg",
   },
   {
+    
     name: "Buenos Aires",
     country: "Argentina",
     continent: "South America",
@@ -137,6 +148,7 @@ const cities = [
     image: "/images/cities/buenosaires.jpg",
   },
   {
+    
     name: "Los Angeles",
     country: "USA",
     continent: "North America",
@@ -147,7 +159,9 @@ const cities = [
     timezone: "UTC-8",
     description: "The entertainment capital of the world, home to Hollywood and stunning beaches.",
     image: "/images/cities/Losangeles.jpg",
-  },{
+  },
+  {
+    
     name: "Cape Town",
     country: "South Africa",
     continent: "Africa",
@@ -172,6 +186,7 @@ const cities = [
     image: "/images/cities/Bangkok.jpg",
   },
   {
+    
     name: "Toronto",
     country: "Canada",
     continent: "North America",
@@ -184,6 +199,7 @@ const cities = [
     image: "/images/cities/Toronto.avif",
   },
 ];
+
 
 City.insertMany(cities)
   .then(() => {

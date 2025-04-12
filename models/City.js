@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const citySchema = new mongoose.Schema({
+  code: { type: String, required: true, unique: true }, // Identificador único (ej: ID_NEW_YORK)
   name: { type: String, required: true },
   image: { type: String, required: true },
   country: { type: String, required: true },
