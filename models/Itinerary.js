@@ -10,13 +10,7 @@ const itinerarySchema = new mongoose.Schema({
   duration: { type: Number, required: true },
   likes: { type: Number, default: 0 },
   hashtags: [{ type: String }],
-  comments: [
-    {
-      user: { type: String },
-      text: { type: String },
-      date: { type: Date, default: Date.now }
-    }
-  ]
+  
 }, { timestamps: true });
 
 const Itinerary = mongoose.model("Itinerary", itinerarySchema);

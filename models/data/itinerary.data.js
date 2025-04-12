@@ -30,11 +30,7 @@ const itineraries = [
     price: 2,
     duration: 3,
     likes: 0,
-    hashtags: ["nature", "relaxing"],
-    comments: [
-      { user: "Tom", text: "Amazing place to chill!" },
-      { user: "Sara", text: "Loved the walk." }
-    ]
+    hashtags: ["nature", "relaxing"]
   },
   {
     city: new mongoose.Types.ObjectId(losAngelesId),
@@ -45,8 +41,7 @@ const itineraries = [
     price: 3,
     duration: 2,
     likes: 0,
-    hashtags: ["beach", "sunset"],
-    comments: [{ user: "Emily", text: "So beautiful!" }]
+    hashtags: ["beach", "sunset"]
   },
   {
     city: new mongoose.Types.ObjectId(romeId),
@@ -57,8 +52,7 @@ const itineraries = [
     price: 4,
     duration: 4,
     likes: 0,
-    hashtags: ["history", "architecture"],
-    comments: [{ user: "Luca", text: "Bellissimo!" }]
+    hashtags: ["history", "architecture"]
   },
   {
     city: new mongoose.Types.ObjectId(bangkokId),
@@ -69,8 +63,7 @@ const itineraries = [
     price: 1,
     duration: 2,
     likes: 0,
-    hashtags: ["foodie", "local"],
-    comments: [{ user: "Leo", text: "Best pad thai ever!" }]
+    hashtags: ["foodie", "local"]
   },
   {
     city: new mongoose.Types.ObjectId(capeTownId),
@@ -81,8 +74,7 @@ const itineraries = [
     price: 2,
     duration: 5,
     likes: 0,
-    hashtags: ["adventure", "nature"],
-    comments: [{ user: "Nick", text: "Incredible views!" }]
+    hashtags: ["adventure", "nature"]
   },
   {
     city: new mongoose.Types.ObjectId(parisId),
@@ -93,8 +85,7 @@ const itineraries = [
     price: 3,
     duration: 3,
     likes: 0,
-    hashtags: ["art", "culture"],
-    comments: [{ user: "Max", text: "Loved the Mona Lisa!" }]
+    hashtags: ["art", "culture"]
   },
   {
     city: new mongoose.Types.ObjectId(torontoId),
@@ -105,8 +96,7 @@ const itineraries = [
     price: 2,
     duration: 3,
     likes: 0,
-    hashtags: ["skyline", "views"],
-    comments: [{ user: "Jess", text: "Stunning!" }]
+    hashtags: ["skyline", "views"]
   },
   {
     city: new mongoose.Types.ObjectId(tokyoId),
@@ -117,8 +107,7 @@ const itineraries = [
     price: 3,
     duration: 4,
     likes: 0,
-    hashtags: ["modern", "urban"],
-    comments: [{ user: "Nina", text: "Felt like anime!" }]
+    hashtags: ["modern", "urban"]
   },
   {
     city: new mongoose.Types.ObjectId(amsterdamId),
@@ -129,8 +118,7 @@ const itineraries = [
     price: 2,
     duration: 2,
     likes: 0,
-    hashtags: ["art", "museums"],
-    comments: [{ user: "Alex", text: "Very inspiring." }]
+    hashtags: ["art", "museums"]
   },
   {
     city: new mongoose.Types.ObjectId(sydneyId),
@@ -141,8 +129,7 @@ const itineraries = [
     price: 5,
     duration: 2,
     likes: 0,
-    hashtags: ["music", "experience"],
-    comments: [{ user: "Hannah", text: "Once in a lifetime!" }]
+    hashtags: ["music", "experience"]
   },
   {
     city: new mongoose.Types.ObjectId(londonId),
@@ -153,8 +140,7 @@ const itineraries = [
     price: 3,
     duration: 3,
     likes: 0,
-    hashtags: ["landmarks", "sightseeing"],
-    comments: [{ user: "Laura", text: "Amazing view of the city!" }]
+    hashtags: ["landmarks", "sightseeing"]
   },
   {
     city: new mongoose.Types.ObjectId(barcelonaId),
@@ -165,8 +151,7 @@ const itineraries = [
     price: 4,
     duration: 4,
     likes: 0,
-    hashtags: ["architecture", "culture"],
-    comments: [{ user: "Carlos", text: "Sagrada Familia was breathtaking!" }]
+    hashtags: ["architecture", "culture"]
   },
   {
     city: new mongoose.Types.ObjectId(berlinId),
@@ -177,8 +162,7 @@ const itineraries = [
     price: 2,
     duration: 2,
     likes: 0,
-    hashtags: ["history", "streetart"],
-    comments: [{ user: "Marta", text: "Such powerful stories in the murals." }]
+    hashtags: ["history", "streetart"]
   },
   {
     city: new mongoose.Types.ObjectId(dubaiId),
@@ -189,8 +173,7 @@ const itineraries = [
     price: 4,
     duration: 6,
     likes: 0,
-    hashtags: ["adventure", "desert"],
-    comments: [{ user: "Nico", text: "Unforgettable!" }]
+    hashtags: ["adventure", "desert"]
   },
   {
     city: new mongoose.Types.ObjectId(buenosAiresId),
@@ -201,8 +184,7 @@ const itineraries = [
     price: 1,
     duration: 2,
     likes: 0,
-    hashtags: ["culture", "historic"],
-    comments: [{ user: "Franco", text: "A must-see in Buenos Aires!" }]
+    hashtags: ["culture", "historic"]
   }
 ];
 
