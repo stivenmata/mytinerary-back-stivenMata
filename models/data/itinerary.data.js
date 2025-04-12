@@ -4,21 +4,21 @@ import "dotenv/config.js";
 import "../../config/database.js";
 
 // City IDs
-const berlinId = "67e2339968be1806aa028c02";
-const romeId = "67e2339968be1806aa028bfe";
-const sydneyId = "67e2339968be1806aa028c00";
-const parisId = "67e2339968be1806aa028bfb";
-const bangkokId = "67e2339968be1806aa028c07";
-const capeTownId = "67e2339968be1806aa028c06";
-const tokyoId = "67e2339968be1806aa028bfc";
-const buenosAiresId = "67e2339968be1806aa028c04";
-const amsterdamId = "67e2339968be1806aa028c03";
-const barcelonaId = "67e2339968be1806aa028bff";
-const dubaiId = "67e2339968be1806aa028c01";
-const newYorkId = "67e2339968be1806aa028bfa";
-const losAngelesId = "67e2339968be1806aa028c05";
-const londonId = "67e2339968be1806aa028bfd";
-const torontoId = "67e2339968be1806aa028c08";
+const berlinId = "67f9eef2dfc170aa2bb037a3";
+const romeId = "67f9eef2dfc170aa2bb0379f";
+const sydneyId = "67f9eef2dfc170aa2bb037a1";
+const parisId = "67f9eef2dfc170aa2bb0379c";
+const bangkokId = "67f9eef2dfc170aa2bb037a8";
+const capeTownId = "67f9eef2dfc170aa2bb037a7";
+const tokyoId = "67f9eef2dfc170aa2bb0379d";
+const buenosAiresId = "67f9eef2dfc170aa2bb037a5";
+const amsterdamId = "67f9eef2dfc170aa2bb037a4";
+const barcelonaId = "67f9eef2dfc170aa2bb037a0";
+const dubaiId = "67f9eef2dfc170aa2bb037a2";
+const newYorkId = "67f9eef2dfc170aa2bb0379b";
+const losAngelesId = "67f9eef2dfc170aa2bb037a6";
+const londonId = "67f9eef2dfc170aa2bb0379e";
+const torontoId = "67f9eef2dfc170aa2bb037a9";
 
 const itineraries = [
   {
@@ -26,7 +26,7 @@ const itineraries = [
     title: "Explore Central Park",
     authorName: "Maria Lopez",
     authorPhoto: "https://randomuser.me/api/portraits/women/32.jpg",
-    placePhoto: "https://cdn.britannica.com/14/77414-050-A38746FA/Central-Park-New-York-City.jpg",
+    placePhoto: "https://i0.wp.com/www.yayforvacay.com/wp-content/uploads/2019/11/DSC_2934.jpg?resize=1140%2C761&ssl=1",
     price: 2,
     duration: 3,
     likes: 0,
@@ -41,7 +41,7 @@ const itineraries = [
     title: "Sunset at Santa Monica",
     authorName: "John Carter",
     authorPhoto: "https://randomuser.me/api/portraits/men/21.jpg",
-    placePhoto: "https://www.santamonica.com/wp-content/uploads/2022/01/sunset-santa-monica.jpg",
+    placePhoto: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-visitors-enjoy-sunset-above-santa-monica-pier-in-los-angeles-miroslav-liska.jpg",
     price: 3,
     duration: 2,
     likes: 0,
@@ -53,7 +53,7 @@ const itineraries = [
     title: "Historic Rome Tour",
     authorName: "Giulia Romano",
     authorPhoto: "https://randomuser.me/api/portraits/women/33.jpg",
-    placePhoto: "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/020/588/slideshow/4c4a627aa7eb277d7d21684d1475c072/slide-tour-news-slideshow-epr-day-12-13-italy-rome-forum-gal.jpg",
+    placePhoto: "https://www.costsavertour.com/media/ye2p4otb/jewels-italy-guided-tour-2.jpg",
     price: 4,
     duration: 4,
     likes: 0,
@@ -77,7 +77,7 @@ const itineraries = [
     title: "Climb Table Mountain",
     authorName: "Thandi Zuma",
     authorPhoto: "https://randomuser.me/api/portraits/women/23.jpg",
-    placePhoto: "https://media.cntraveler.com/photos/5d8a8e0e7efdcf0009df13c3/16:9/w_2560,c_limit/TableMountain-GettyImages-147847451.jpg",
+    placePhoto: "https://insideguide.co.za/cape-town/app/uploads/2018/05/india-venster.png",
     price: 2,
     duration: 5,
     likes: 0,
@@ -89,7 +89,7 @@ const itineraries = [
     title: "Tour the Louvre Museum",
     authorName: "Claire Dubois",
     authorPhoto: "https://randomuser.me/api/portraits/women/64.jpg",
-    placePhoto: "https://cdn.britannica.com/35/94535-050-BE26ED73/Louvre-Museum-Paris.jpg",
+    placePhoto: "https://robbreport.com/wp-content/uploads/2019/02/louvre-c.jpg?w=1000",
     price: 3,
     duration: 3,
     likes: 0,
@@ -101,7 +101,7 @@ const itineraries = [
     title: "CN Tower & Harbourfront",
     authorName: "Kevin Singh",
     authorPhoto: "https://randomuser.me/api/portraits/men/52.jpg",
-    placePhoto: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_500,q_75,w_800/v1/clients/toronto/CNTower_Credit_CityofToronto_9b8e7a2d-2397-4565-9f8a-4c6bda73e0ac.jpg",
+    placePhoto: "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/49000/49575-Harbourfront-Centre.jpg",
     price: 2,
     duration: 3,
     likes: 0,
@@ -113,7 +113,7 @@ const itineraries = [
     title: "City Walk in Tokyo",
     authorName: "Haruki Tanaka",
     authorPhoto: "https://randomuser.me/api/portraits/men/38.jpg",
-    placePhoto: "https://media.timeout.com/images/105240238/750/422/image.jpg",
+    placePhoto: "https://i.ytimg.com/vi/rFcwx-sIMA8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDq54aM6Z03cqnNxnXem77l7c8Dpg",
     price: 3,
     duration: 4,
     likes: 0,
@@ -125,7 +125,7 @@ const itineraries = [
     title: "Van Gogh Museum Tour",
     authorName: "Sofie De Vries",
     authorPhoto: "https://randomuser.me/api/portraits/women/48.jpg",
-    placePhoto: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Van_Gogh_Museum_Amsterdam_2018.jpg",
+    placePhoto: "https://aws-tiqets-cdn.imgix.net/images/content/d01f0b8405794a388628a1f8b5fa0da9.jpeg?auto=format&fit=crop&q=75&w=900",
     price: 2,
     duration: 2,
     likes: 0,
@@ -137,7 +137,7 @@ const itineraries = [
     title: "Sydney Opera House Show",
     authorName: "Liam Johnson",
     authorPhoto: "https://randomuser.me/api/portraits/men/36.jpg",
-    placePhoto: "https://www.australia.com/content/australia/en/places/sydney/guide-to-sydney-opera-house/_jcr_content/image.adapt.1200.HIGH.jpg",
+    placePhoto: "https://images.adsttc.com/media/images/592b/3a1e/e58e/ce97/f600/0211/medium_jpg/VividLIVE_LightingtheSails_creditYayaStempler1.jpg?1496005142",
     price: 5,
     duration: 2,
     likes: 0,
@@ -149,7 +149,7 @@ const itineraries = [
     title: "The London Eye & Big Ben",
     authorName: "Oliver Smith",
     authorPhoto: "https://randomuser.me/api/portraits/men/18.jpg",
-    placePhoto: "https://cdn.getyourguide.com/img/location/5ffeb9ec7bd45.jpeg/88.jpg",
+    placePhoto: "https://media01.stockfood.com/largepreviews/MjE3ODAyNzg4NA==/70258964-Big-Ben-and-London-Eye-London-UK-England.jpg",
     price: 3,
     duration: 3,
     likes: 0,
@@ -161,7 +161,7 @@ const itineraries = [
     title: "Barcelona Gaudí Tour",
     authorName: "Ana García",
     authorPhoto: "https://randomuser.me/api/portraits/women/26.jpg",
-    placePhoto: "https://media.timeout.com/images/105658195/image.jpg",
+    placePhoto: "https://runnerbeantours.com/wp-content/uploads/2017/02/free-gaudi-tour-barcelona.jpg",
     price: 4,
     duration: 4,
     likes: 0,
@@ -173,7 +173,7 @@ const itineraries = [
     title: "Discover Berlin’s Wall Art",
     authorName: "Felix Müller",
     authorPhoto: "https://randomuser.me/api/portraits/men/59.jpg",
-    placePhoto: "https://upload.wikimedia.org/wikipedia/commons/e/e2/East_Side_Gallery_berlin.jpg",
+    placePhoto: "https://prod-ymm-us-east-1-global-yo-landing.s3.amazonaws.com/wp-content/uploads/2024/05/23145639/e3d63e6b-3df8-4425-86ca-96938d85be32.png",
     price: 2,
     duration: 2,
     likes: 0,
@@ -185,8 +185,8 @@ const itineraries = [
     title: "Dubai Desert Safari",
     authorName: "Aisha Al-Farsi",
     authorPhoto: "https://randomuser.me/api/portraits/women/12.jpg",
-    placePhoto: "https://www.visitdubai.com/-/media/gathercontent/poi/d/desert-safari/fallback-image/desert-safari-visit-dubai.jpg",
-    price: 5,
+    placePhoto: "https://dubaitickets.tours/wp-content/uploads/2023/04/dubai-desert-safari-tour-6.jpg",
+    price: 4,
     duration: 6,
     likes: 0,
     hashtags: ["adventure", "desert"],
@@ -197,7 +197,7 @@ const itineraries = [
     title: "Recoleta Cemetery & Café",
     authorName: "Lucía Fernández",
     authorPhoto: "https://randomuser.me/api/portraits/women/55.jpg",
-    placePhoto: "https://www.welcomeargentina.com/fotos/recoleta/galeria10.jpg",
+    placePhoto: "https://cdn.getyourguide.com/img/tour/f2cd3d97b3efd16ea99cfd823da4b281355caeb6f750e5748b3b67ed603399b3.jpg/146.jpg",
     price: 1,
     duration: 2,
     likes: 0,
