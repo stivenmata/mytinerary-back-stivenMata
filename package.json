@@ -9,7 +9,6 @@
     "dev": "nodemon server.js",
     "dataCities": "node models/data/city.data.js",
     "dataItineraries": "node models/data/itinerary.data.js"
-
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,13 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "joi-oid": "^1.1.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.2",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
   }
 }
