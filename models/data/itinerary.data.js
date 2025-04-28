@@ -147,7 +147,7 @@ const itineraries = [
     title: "Barcelona Gaudí Tour",
     authorName: "Ana García",
     authorPhoto: "https://randomuser.me/api/portraits/women/26.jpg",
-    placePhoto: "https://runnerbeantours.com/wp-content/uploads/2017/02/free-gaudi-tour-barcelona.jpg",
+    placePhoto: "https://catalonia.com/documents/176177/209064/catalonia-trade-and-investment-barcelona-ranked-8th-best-city-in-the-world.jpg/bfab1a81-b42b-fc40-4a2d-73034301fb02?t=1717594354035",
     price: 4,
     duration: 4,
     likes: 0,
