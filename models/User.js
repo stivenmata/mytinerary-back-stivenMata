@@ -9,7 +9,7 @@ let schema = new Schema({
     password: { type: String, required: true },
     photo: { type: String, required: true },
     country: { type: String, required: true },
-    role: { type: Number, required: true },  
+    
     online: { type: Boolean, default: false }, 
 }, {
     timestamps: true

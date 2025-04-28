@@ -1,8 +1,8 @@
 import { Router } from "express";
 
 import signUp from "../controllers/auth/signUp.js";
-import signIn from "../controllers/auth/SignIn.js";
-import signOut from "../controllers/auth/SignOut.js";
+import signIn from "../controllers/auth/signIn.js";
+import signOut from "../controllers/auth/signOut.js";
 
 import schemaSignIn from "../schemas/auth/signIn.js"; 
 import schemaUser from "../schemas/user/create.js"; 
@@ -18,8 +18,8 @@ const routerAuth = Router();
 
 
 routerAuth.post(
-  "/signup",
-  validator(schemaUser), 
+  "/signup",  
+  validator(schemaUser),
   accountExists,
   createHash,
   signUp

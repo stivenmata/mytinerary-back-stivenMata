@@ -35,11 +35,6 @@ const schema = Joi.object({
     "string.base": "Country must be a string",
     "string.empty": "Country is required"
   }),
-  role: Joi.number().required().valid(1, 2).messages({  
-    "number.base": "Role must be a number",
-    "number.empty": "Role is required",
-    "any.only": "Role must be either 1 or 2"  
-  })
 });
 
 export default schema;

@@ -9,7 +9,9 @@ const router = express.Router();
 
 router.use("/cities", citiesRouter);
 router.use("/itineraries", itinerariesRouter);
-router.use("/auth", authRouter);      
+router.use("/auth", authRouter);     
 router.use("/users", userRouter);    
+
+
 
 export default router;
