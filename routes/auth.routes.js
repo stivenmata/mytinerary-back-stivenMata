@@ -1,7 +1,8 @@
 import { Router } from "express";
+import passport from "../middlewares/passport.js";
 
 import signUp from "../controllers/auth/signUp.js";
-import signIn from "../controllers/auth/signIn.js";
+import signIn from "../controllers/auth/SignIn.js";
 import signOut from "../controllers/auth/signOut.js";
 
 import schemaSignIn from "../schemas/auth/signIn.js"; 
@@ -28,11 +29,11 @@ routerAuth.post(
 routerAuth.post(
   "/signin",
   validator(schemaSignIn),
-  accountNotExists,
-  validedPassword,
+  passport.authenticate("local", { session: false }),
   generateToken,
   signIn
 );
+
 
 
 routerAuth.post("/signout", signOut);
