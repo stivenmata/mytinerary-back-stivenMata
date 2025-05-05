@@ -1,33 +1,40 @@
 import User from "../../models/User.js";
 
-
-let allUser = async (req, res, next) => {
+// Obtener todos los usuarios con filtros opcionales por nombre y rol
+const allUser = async (req, res, next) => {
   try {
-    let { name, role } = req.query;
+    const { name, role } = req.query;
     let query = {};
 
     if (name) {
       query.name = { $regex: name, $options: "i" };
     }
+
     if (role) {
       query.role = role;
     }
 
-    let all = await User.find(query).populate("car", "").exec();
+    const users = await User.find(query); 
 
     return res.status(200).json({
       success: true,
-      response: all
+      response: users,
     });
   } catch (error) {
-    next(error);
+    console.error(error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+      response: error.message,
+    });
   }
 };
 
-let userByName = async (req, res, next) => {
+// Buscar usuarios por nombre exacto
+const userByName = async (req, res, next) => {
   try {
-    let nameQuery = req.params.nameParams;
-    let users = await User.find({ name: nameQuery });
+    const nameQuery = req.params.nameParams;
+    const users = await User.find({ name: nameQuery });
 
     if (!users.length) {
       return res.status(404).json({ success: false, message: "User not found" });
@@ -35,17 +42,23 @@ let userByName = async (req, res, next) => {
 
     return res.status(200).json({
       success: true,
-      response: users
+      response: users,
     });
   } catch (error) {
-    next(error);
+    console.error(error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+      response: error.message,
+    });
   }
 };
 
-let userById = async (req, res, next) => {
+// Buscar usuario por ID
+const userById = async (req, res, next) => {
   try {
-    let idQuery = req.params.idParams;
-    let user = await User.findById(idQuery);
+    const idQuery = req.params.idParams;
+    const user = await User.findById(idQuery);
 
     if (!user) {
       return res.status(404).json({ success: false, message: "User not found" });
@@ -53,10 +66,15 @@ let userById = async (req, res, next) => {
 
     return res.status(200).json({
       success: true,
-      response: user
+      response: user,
     });
   } catch (error) {
-    next(error);
+    console.error(error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+      response: error.message,
+    });
   }
 };
 

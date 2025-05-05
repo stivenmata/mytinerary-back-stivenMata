@@ -11,7 +11,8 @@ export default async (req, res, next) => {
         password: account.password,
         photo: account.photo,
         country: account.country,
-        role: account.role
+        
+        
       };
       return next();
     }
